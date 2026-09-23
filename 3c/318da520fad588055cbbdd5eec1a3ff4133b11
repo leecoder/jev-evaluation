@@ -1,0 +1,70 @@
+data/sat-practice-11-rw-text.jsonl
+  s_b2a395e2687c6b::t_db45bf4c903b8b 1-62
+data/archive/csat-2026-jev-smoke.jsonl
+  s_b2a395e2687c6b::t_4840ebe258d9b6 1
+results/sat-practice-11-math/manifest.json
+  h_dc03a1b36fc837 1-16
+.gitignore
+  h_dc03a1b36fc837 1-7
+data/csat-2026-korean-odd-text.jsonl
+  s_b2a395e2687c6b::t_0a4dafa6c241a9 1-48
+metadata/sat-practice-11-manifest.json
+  h_dc03a1b36fc837 1-120
+README.md
+  h_dc03a1b36fc837 1-92
+data/sat-practice-11-math-mc-text.jsonl
+  s_b2a395e2687c6b::t_596329892b3345 1-28
+results/csat-2026-korean-odd/summary.json
+  h_dc03a1b36fc837 1-108
+results/sat-practice-11-rw/manifest.json
+  h_dc03a1b36fc837 1-16
+results/sat-practice-11-rw/summary.json
+  h_dc03a1b36fc837 1-90
+results/csat-2026-korean-odd/manifest.json
+  h_dc03a1b36fc837 1-16
+results/sat-practice-11-math/summary.json
+  h_dc03a1b36fc837 1-90
+jev_evaluation/datasets/dataset_io.py
+  s_b2a395e2687c6b::t_d1c946e28ba0e2 1-85
+jev_evaluation/paths.py
+  s_b2a395e2687c6b::t_8992ee46897efd 1-5
+jev_evaluation/scoring/parallel_schema.py
+  s_b2a395e2687c6b::t_c3cb9513202dbd 1-138
+jev_evaluation/datasets/public_records.py
+  h_dc03a1b36fc837 1-110
+jev_evaluation/evaluation/evaluate_pilot.py
+  h_dc03a1b36fc837 1-217
+jev_evaluation/evaluation/evaluate_public.py
+  h_dc03a1b36fc837 1-321
+jev_evaluation/evaluation/evaluate_public_jev.py
+  h_dc03a1b36fc837 1-301
+metadata/csat-2026-korean-manifest.json
+  h_dc03a1b36fc837 1-90
+metadata/csat-2026-smoke-manifest.json
+  h_dc03a1b36fc837 1-47
+metadata/sat-practice-11-math-manifest.json
+  h_dc03a1b36fc837 1-218
+metadata/sat-practice-11-rw-manifest.json
+  h_dc03a1b36fc837 1-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3c318da520fad588055cbbdd5eec1a3ff4133b11",
+  "prompts": {},
+  "humans": {
+    "h_dc03a1b36fc837": {
+      "author": "leecoder <leecoder@aol.com>"
+    }
+  },
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
