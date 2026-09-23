@@ -1,0 +1,21 @@
+results/csat-2026-korean-odd/manifest.json
+  s_b2a395e2687c6b::t_ac5029d3781f57 2
+results/csat-2026-korean-odd/summary.json
+  s_b2a395e2687c6b::t_ac5029d3781f57 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "09f7b276214c2181df09f13a34de8d424fdc5aa3",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
