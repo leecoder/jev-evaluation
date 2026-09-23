@@ -1,0 +1,19 @@
+nimble/scoring/parallel_schema.py
+  s_b2a395e2687c6b::t_0fdd1d713f7b6d 1-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "deaa0c49fa6c8445dac76f2fd8d1c315c60bcb97",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
