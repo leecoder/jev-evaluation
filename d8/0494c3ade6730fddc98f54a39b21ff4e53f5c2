@@ -1,0 +1,23 @@
+metadata/sat-practice-11-math-manifest.json
+  s_b2a395e2687c6b::t_7fa8495a7dd472 2
+metadata/sat-practice-11-manifest.json
+  s_b2a395e2687c6b::t_7fa8495a7dd472 2,8-9
+metadata/sat-practice-11-rw-manifest.json
+  s_b2a395e2687c6b::t_7fa8495a7dd472 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d80494c3ade6730fddc98f54a39b21ff4e53f5c2",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
