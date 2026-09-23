@@ -1,0 +1,16 @@
+results/sat-practice-11-rw/manifest.json
+  h_dc03a1b36fc837 1-16
+results/sat-practice-11-rw/summary.json
+  h_dc03a1b36fc837 1-90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fc51b2c09249a5d7d54ab780f60949cffcbf0a86",
+  "prompts": {},
+  "humans": {
+    "h_dc03a1b36fc837": {
+      "author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
