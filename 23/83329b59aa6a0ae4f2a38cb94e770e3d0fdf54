@@ -1,0 +1,14 @@
+metadata/sat-practice-11-manifest.json
+  h_dc03a1b36fc837 1-120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2383329b59aa6a0ae4f2a38cb94e770e3d0fdf54",
+  "prompts": {},
+  "humans": {
+    "h_dc03a1b36fc837": {
+      "author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
