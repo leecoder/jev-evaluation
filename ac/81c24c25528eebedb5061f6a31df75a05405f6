@@ -1,0 +1,98 @@
+metadata/csat-2026-smoke-manifest.json
+  h_dc03a1b36fc837 1-47
+results/sat-practice-11-rw/summary.json
+  h_dc03a1b36fc837 1-3,5-90
+  s_b2a395e2687c6b::t_f02c7b6a9b6d39 4
+README.md
+  h_dc03a1b36fc837 1-6,8-51,54-55,57-59,61-63,65-79,81-87
+  s_b2a395e2687c6b::t_68d0275816df65 80
+  s_b2a395e2687c6b::t_3537f383f70d64 7,52-53,56,60,64
+metadata/sat-practice-11-rw-manifest.json
+  h_dc03a1b36fc837 1-48,50-85
+  s_b2a395e2687c6b::t_3537f383f70d64 49
+results/csat-2026-korean-odd/manifest.json
+  s_b2a395e2687c6b::t_f02c7b6a9b6d39 4
+  h_dc03a1b36fc837 1-3,5-16
+eval/datasets/public_records.py
+  s_b2a395e2687c6b::t_68d0275816df65 3
+  s_b2a395e2687c6b::t_3537f383f70d64 11
+  s_b2a395e2687c6b::t_ac34064b17b0ba 1-2
+  s_b2a395e2687c6b::t_f5cc2eafaffcf8 4-6,8-10
+  s_b2a395e2687c6b::t_4937a75f0204b7 12-14
+  h_dc03a1b36fc837 7,15-110
+results/sat-practice-11-math/manifest.json
+  h_dc03a1b36fc837 1-3,5-16
+  s_b2a395e2687c6b::t_f02c7b6a9b6d39 4
+eval/evaluation/evaluate_pilot.py
+  s_b2a395e2687c6b::t_3537f383f70d64 14-171
+  s_b2a395e2687c6b::t_8dafddf853636d 11-13
+  s_b2a395e2687c6b::t_38512df2d18851 172-174
+  h_dc03a1b36fc837 1-10,175-217
+data/sat-practice-11-math-mc-text.jsonl
+  s_b2a395e2687c6b::t_596329892b3345 1-28
+eval/__main__.py
+  s_b2a395e2687c6b::t_3537f383f70d64 1-5
+.gitignore
+  h_dc03a1b36fc837 1-7
+data/sat-practice-11-rw-text.jsonl
+  s_b2a395e2687c6b::t_db45bf4c903b8b 1-62
+data/csat-2026-korean-odd-text.jsonl
+  s_b2a395e2687c6b::t_0a4dafa6c241a9 1-48
+results/sat-practice-11-math/summary.json
+  h_dc03a1b36fc837 1-3,5-90
+  s_b2a395e2687c6b::t_f02c7b6a9b6d39 4
+eval/evaluation/evaluate_public.py
+  s_b2a395e2687c6b::t_3537f383f70d64 16-189
+  s_b2a395e2687c6b::t_d80318abb1eca4 13-15
+  s_b2a395e2687c6b::t_7867a945c14108 190-192
+  h_dc03a1b36fc837 1-12,193-321
+metadata/sat-practice-11-math-manifest.json
+  h_dc03a1b36fc837 1-181,183-218
+  s_b2a395e2687c6b::t_3537f383f70d64 182
+metadata/sat-practice-11-manifest.json
+  h_dc03a1b36fc837 1-17,19-41,43-78,80-120
+  s_b2a395e2687c6b::t_3537f383f70d64 18,42,79
+results/sat-practice-11-rw/manifest.json
+  s_b2a395e2687c6b::t_f02c7b6a9b6d39 4
+  h_dc03a1b36fc837 1-3,5-16
+data/archive/csat-2026-jev-smoke.jsonl
+  s_b2a395e2687c6b::t_4840ebe258d9b6 1
+metadata/csat-2026-korean-manifest.json
+  h_dc03a1b36fc837 1-18,20-90
+  s_b2a395e2687c6b::t_3537f383f70d64 19
+results/csat-2026-korean-odd/summary.json
+  h_dc03a1b36fc837 1-3,5-108
+  s_b2a395e2687c6b::t_f02c7b6a9b6d39 4
+eval/evaluation/evaluate_public_jev.py
+  s_b2a395e2687c6b::t_3537f383f70d64 16-20
+  s_b2a395e2687c6b::t_19e278fb14fbfa 13-15
+  s_b2a395e2687c6b::t_c4baf7dd85337b 21-23
+  h_dc03a1b36fc837 1-12,24-301
+eval/datasets/dataset_io.py
+  s_b2a395e2687c6b::t_8da30822b96af6 1-85
+eval/paths.py
+  s_b2a395e2687c6b::t_2f149f4ba924ad 1-5
+eval/scoring/parallel_schema.py
+  s_b2a395e2687c6b::t_d2fa9a7de65bca 1-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ac81c24c25528eebedb5061f6a31df75a05405f6",
+  "prompts": {},
+  "humans": {
+    "h_dc03a1b36fc837": {
+      "author": "leecoder <leecoder@aol.com>"
+    }
+  },
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": null
+    }
+  }
+}
