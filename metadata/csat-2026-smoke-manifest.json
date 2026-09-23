@@ -1,0 +1,46 @@
+{
+  "dataset": "local-only: csat-2026-jev-smoke.jsonl (not published)",
+  "dataset_sha256": "8b260e6d25d6c7c2bb25230016b5d70746b6d74baa0557b9649c917462243705",
+  "coverage_status": "partial",
+  "evaluation_scope": "text-complete five-choice questions from locally verified official sources",
+  "created_utc": "2026-09-22T03:30:00Z",
+  "records": 1,
+  "included": [
+    {
+      "id": "csat-2026-kor-odd-001",
+      "subject": "국어",
+      "form": "odd",
+      "question_number": 1,
+      "source_url": "https://wdown.ebsi.co.kr/W61001/01exam/20251113/go3/live_main_paper_1_kor_352K8BKR.pdf",
+      "answer_source_url": "https://wdown.ebsi.co.kr/W61001/01exam/20251113/go3/live_main_answer_1_kor_8ZE3E1XR.pdf",
+      "local_question_file": null,
+      "local_text_file": null,
+      "answer_key_revision": "KICE/EBSi final answer key",
+      "human_reviewed": true
+    }
+  ],
+  "excluded": [
+    {
+      "scope": "국어 나머지 문항",
+      "reason": "문항별 텍스트 복원 및 도표·그림 의존성 검수가 완료되지 않음"
+    },
+    {
+      "scope": "수학",
+      "reason": "단답형과 도형·그래프 의존 문항을 분리·검수하지 않음"
+    },
+    {
+      "scope": "영어",
+      "reason": "문제지·듣기 대본·최종 정답표를 로컬에서 검증하지 않음"
+    },
+    {
+      "scope": "한국사·사회탐구·과학탐구·직업탐구·제2외국어·한문",
+      "reason": "공식 문제지와 최종 정답표의 로컬 보존 및 문항별 텍스트 검수가 완료되지 않음"
+    }
+  ],
+  "integrity_rules": [
+    "reference.target is never included in input.state or input.questions",
+    "only five-choice records are eligible",
+    "official question booklet and final answer key URLs are recorded per included record",
+    "image-, chart-, map-, graph-, and audio-dependent items require explicit review before inclusion"
+  ]
+}

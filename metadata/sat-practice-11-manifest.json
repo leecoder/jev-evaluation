@@ -1,0 +1,120 @@
+{
+  "dataset": "local-only: SAT Practice Test #11 inputs (not published)",
+  "coverage_status": "text_complete_reviewed_subset",
+  "exam": "College Board SAT Practice Test #11",
+  "test_form": "official digital SAT practice test in nondigital format",
+  "records": 90,
+  "dataset_parts": {
+    "reading_writing": "local-only: sat-practice-11-rw-text.jsonl (not published)",
+    "math_multiple_choice": "local-only: sat-practice-11-math-mc-text.jsonl (not published)"
+  },
+  "excluded_total": 30,
+  "excluded_summary": {
+    "reading_writing_visual": 4,
+    "math_visual": 12,
+    "math_student_produced_response": 14
+  },
+  "evaluation": {
+    "runner": "eval",
+    "model": "jev-1.13.0",
+    "outputs": [
+      "results/sat-practice-11-rw",
+      "results/sat-practice-11-math"
+    ],
+    "combined": {
+      "records": 90,
+      "valid": 90,
+      "errors": 0,
+      "correct": 66,
+      "accuracy": 0.7333333333333333,
+      "mean_negative_log_likelihood": 0.6804019750629264,
+      "mean_multiclass_brier": 0.3713955555555556,
+      "ece10": 0.07399999999999998,
+      "median_request_seconds": 0.6530663544835988,
+      "p95_request_seconds": 0.7380034580128267,
+      "usage": {
+        "input_tokens": 55185,
+        "output_tokens": 4050
+      }
+    },
+    "sections": {
+      "reading-writing": {
+        "runner": "eval",
+        "model": "jev-1.13.0",
+        "output_dir": "results/sat-practice-11-rw",
+        "records": 62,
+        "valid": 62,
+        "errors": 0,
+        "correct": 53,
+        "accuracy": 0.8548387096774194,
+        "mean_negative_log_likelihood": 0.42805758687187506,
+        "mean_multiclass_brier": 0.22663548387096774,
+        "ece10": 0.038870967741935485,
+        "median_request_seconds": 0.648767292033881,
+        "p95_request_seconds": 0.7382404999807477,
+        "usage": {
+          "input_tokens": 39871,
+          "output_tokens": 2790
+        },
+        "by_domain": {
+          "sat.reading-writing.module-1": {
+            "count": 32,
+            "valid": 32,
+            "correct": 28,
+            "accuracy": 0.875,
+            "mean_negative_log_likelihood": 0.346593592411282,
+            "mean_multiclass_brier": 0.178725
+          },
+          "sat.reading-writing.module-2": {
+            "count": 30,
+            "valid": 30,
+            "correct": 25,
+            "accuracy": 0.8333333333333334,
+            "mean_negative_log_likelihood": 0.5149525142965077,
+            "mean_multiclass_brier": 0.27774
+          }
+        }
+      },
+      "math": {
+        "runner": "eval",
+        "model": "jev-1.13.0",
+        "output_dir": "results/sat-practice-11-math",
+        "records": 28,
+        "valid": 28,
+        "errors": 0,
+        "correct": 13,
+        "accuracy": 0.4642857142857143,
+        "mean_negative_log_likelihood": 1.2391645489145389,
+        "mean_multiclass_brier": 0.6919357142857143,
+        "ece10": 0.1782142857142857,
+        "median_request_seconds": 0.6613408334960695,
+        "p95_request_seconds": 0.713899708003737,
+        "usage": {
+          "input_tokens": 15314,
+          "output_tokens": 1260
+        },
+        "by_domain": {
+          "sat.math.module-1": {
+            "count": 15,
+            "valid": 15,
+            "correct": 8,
+            "accuracy": 0.5333333333333333,
+            "mean_negative_log_likelihood": 1.1454179126490267,
+            "mean_multiclass_brier": 0.6523733333333334
+          },
+          "sat.math.module-2": {
+            "count": 13,
+            "valid": 13,
+            "correct": 5,
+            "accuracy": 0.38461538461538464,
+            "mean_negative_log_likelihood": 1.3473337446055147,
+            "mean_multiclass_brier": 0.7375846153846154
+          }
+        }
+      }
+    }
+  },
+  "source_question_pdf": "https://satsuite.collegeboard.org/media/pdf/sat-practice-test-11-digital.pdf",
+  "source_answer_pdf": "https://satsuite.collegeboard.org/media/pdf/sat-practice-test-11-answers-digital.pdf",
+  "input_contract": "Official answer explanations and reference.target are never included in input.state or input.questions."
+}

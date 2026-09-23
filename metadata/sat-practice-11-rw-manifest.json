@@ -1,0 +1,85 @@
+{
+  "dataset": "local-only: sat-practice-11-rw-text.jsonl (not published)",
+  "coverage_status": "text_complete_reviewed_subset",
+  "exam": "College Board SAT Practice Test #11",
+  "test_form": "official digital SAT practice test in nondigital format",
+  "sections": [
+    "Reading and Writing"
+  ],
+  "records": 62,
+  "source_question_pdf": "https://satsuite.collegeboard.org/media/pdf/sat-practice-test-11-digital.pdf",
+  "source_answer_pdf": "https://satsuite.collegeboard.org/media/pdf/sat-practice-test-11-answers-digital.pdf",
+  "question_pdf_sha256": "c5376d25a691f6774fa328a83516c068c226b33e3683055a0873e2fb7b0bd428",
+  "answer_pdf_sha256": "049ecb1ea0fe13557964803a724b279f58243bd8ada18c0d794654c54a86ea4d",
+  "question_text_sha256": "37c69ecf8af977c83633bc8e25c504a0b201bf155e67ffb2b57b0f0ff3d9e063",
+  "answer_text_sha256": "98039c8ef4505d4ea11b2827ef1071908a98024aab7528c03277b15fe5831688",
+  "dataset_sha256": "3a8d9d94d1b6fc87d3165f01a8978bcc7f834e11b968d1eaf6e2db786dae7630",
+  "included_by_section": {
+    "Reading and Writing": 62
+  },
+  "excluded": [
+    {
+      "section": "Reading and Writing",
+      "module": 1,
+      "question_number": 15,
+      "reason": "graph-dependent energy-density chart is not represented reliably by text extraction"
+    },
+    {
+      "section": "Reading and Writing",
+      "module": 2,
+      "question_number": 11,
+      "reason": "graph-dependent city-population chart is absent from the text-only input"
+    },
+    {
+      "section": "Reading and Writing",
+      "module": 2,
+      "question_number": 12,
+      "reason": "graph-dependent animal-group chart is absent from the text-only input"
+    },
+    {
+      "section": "Reading and Writing",
+      "module": 2,
+      "question_number": 13,
+      "reason": "graph-dependent congressional-veteran chart is absent from the text-only input"
+    }
+  ],
+  "exclusion_policy": "Exclude questions whose required graph or chart is not faithfully represented by text extraction.",
+  "input_contract": "Official answer explanations and reference.target are never included in input.state or input.questions.",
+  "evaluation": {
+    "runner": "eval",
+    "model": "jev-1.13.0",
+    "output_dir": "results/sat-practice-11-rw",
+    "records": 62,
+    "valid": 62,
+    "errors": 0,
+    "correct": 53,
+    "accuracy": 0.8548387096774194,
+    "mean_negative_log_likelihood": 0.42805758687187506,
+    "mean_multiclass_brier": 0.22663548387096774,
+    "ece10": 0.038870967741935485,
+    "median_request_seconds": 0.648767292033881,
+    "p95_request_seconds": 0.7382404999807477,
+    "usage": {
+      "input_tokens": 39871,
+      "output_tokens": 2790
+    },
+    "by_domain": {
+      "sat.reading-writing.module-1": {
+        "count": 32,
+        "valid": 32,
+        "correct": 28,
+        "accuracy": 0.875,
+        "mean_negative_log_likelihood": 0.346593592411282,
+        "mean_multiclass_brier": 0.178725
+      },
+      "sat.reading-writing.module-2": {
+        "count": 30,
+        "valid": 30,
+        "correct": 25,
+        "accuracy": 0.8333333333333334,
+        "mean_negative_log_likelihood": 0.5149525142965077,
+        "mean_multiclass_brier": 0.27774
+      }
+    }
+  }
+}

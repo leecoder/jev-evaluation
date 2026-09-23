@@ -1,0 +1,108 @@
+{
+  "dataset": "local-only: csat-2026-korean-odd-text.jsonl (not published)",
+  "dataset_sha256": "5c49534b4e51ea047f871064926716446a9ab4bb07c60b943126428c62bb9874",
+  "script_sha256": "9589d61d4601f67ccac6c4cf7c57adfd4faf2dfab1e4887b4bafabd5a39fc8bd",
+  "model": "jev-1.13.0",
+  "api_url": "https://api.typesafe.ai/v1/systemone",
+  "concurrency": 4,
+  "limit": null,
+  "retry_attempts": 5,
+  "started_utc": "2026-09-22T03:41:08.064757+00:00",
+  "completed_utc": "2026-09-22T03:41:17.571715+00:00",
+  "done": 48,
+  "errors": 0,
+  "resumed": false,
+  "retried_errors": 0,
+  "count": 48,
+  "valid": 48,
+  "summary": {
+    "all": {
+      "count": 48,
+      "valid": 48,
+      "correct": 25,
+      "accuracy": 0.5208333333333334,
+      "mean_negative_log_likelihood": 1.1409741047826871,
+      "mean_multiclass_brier": 0.5721416666666667
+    },
+    "choice": {
+      "count": 48,
+      "valid": 48,
+      "correct": 25,
+      "accuracy": 0.5208333333333334,
+      "mean_negative_log_likelihood": 1.1409741047826871,
+      "mean_multiclass_brier": 0.5721416666666667
+    }
+  },
+  "calibration": {
+    "ece10": 0.14875,
+    "bins": 10,
+    "calibration_n": 48,
+    "confidence": "top API probability after renormalization; invalid responses excluded"
+  },
+  "by_domain": {
+    "csat.korean.common": {
+      "all": {
+        "count": 33,
+        "valid": 33,
+        "correct": 19,
+        "accuracy": 0.5757575757575758,
+        "mean_negative_log_likelihood": 1.1020538579598829,
+        "mean_multiclass_brier": 0.5492303030303031
+      },
+      "choice": {
+        "count": 33,
+        "valid": 33,
+        "correct": 19,
+        "accuracy": 0.5757575757575758,
+        "mean_negative_log_likelihood": 1.1020538579598829,
+        "mean_multiclass_brier": 0.5492303030303031
+      }
+    },
+    "csat.korean.eonma": {
+      "all": {
+        "count": 5,
+        "valid": 5,
+        "correct": 0,
+        "accuracy": 0.0,
+        "mean_negative_log_likelihood": 1.72177750326205,
+        "mean_multiclass_brier": 0.88996
+      },
+      "choice": {
+        "count": 5,
+        "valid": 5,
+        "correct": 0,
+        "accuracy": 0.0,
+        "mean_negative_log_likelihood": 1.72177750326205,
+        "mean_multiclass_brier": 0.88996
+      }
+    },
+    "csat.korean.hwajak": {
+      "all": {
+        "count": 10,
+        "valid": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "mean_negative_log_likelihood": 0.9790092200582595,
+        "mean_multiclass_brier": 0.48884
+      },
+      "choice": {
+        "count": 10,
+        "valid": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "mean_negative_log_likelihood": 0.9790092200582595,
+        "mean_multiclass_brier": 0.48884
+      }
+    }
+  },
+  "timing": {
+    "total_request_seconds": 36.12353770702612,
+    "median_seconds": 0.7430431664834032,
+    "p95_seconds": 0.9153021249803714,
+    "boundary": "client wall time per request including retries and HTTPS transport"
+  },
+  "usage": {
+    "input_tokens": 101236,
+    "output_tokens": 2496
+  }
+}

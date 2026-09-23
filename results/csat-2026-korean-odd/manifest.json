@@ -1,0 +1,16 @@
+{
+  "dataset": "local-only: csat-2026-korean-odd-text.jsonl (not published)",
+  "dataset_sha256": "5c49534b4e51ea047f871064926716446a9ab4bb07c60b943126428c62bb9874",
+  "script_sha256": "9589d61d4601f67ccac6c4cf7c57adfd4faf2dfab1e4887b4bafabd5a39fc8bd",
+  "model": "jev-1.13.0",
+  "api_url": "https://api.typesafe.ai/v1/systemone",
+  "concurrency": 4,
+  "limit": null,
+  "retry_attempts": 5,
+  "started_utc": "2026-09-22T03:41:08.064757+00:00",
+  "completed_utc": "2026-09-22T03:41:17.571715+00:00",
+  "done": 48,
+  "errors": 0,
+  "resumed": false,
+  "retried_errors": 0
+}

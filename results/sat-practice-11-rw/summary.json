@@ -1,0 +1,90 @@
+{
+  "dataset": "local-only: sat-practice-11-rw-text.jsonl (not published)",
+  "dataset_sha256": "3a8d9d94d1b6fc87d3165f01a8978bcc7f834e11b968d1eaf6e2db786dae7630",
+  "script_sha256": "9589d61d4601f67ccac6c4cf7c57adfd4faf2dfab1e4887b4bafabd5a39fc8bd",
+  "model": "jev-1.13.0",
+  "api_url": "https://api.typesafe.ai/v1/systemone",
+  "concurrency": 4,
+  "limit": null,
+  "retry_attempts": 5,
+  "started_utc": "2026-09-22T07:23:02.638723+00:00",
+  "completed_utc": "2026-09-22T07:23:13.061270+00:00",
+  "done": 62,
+  "errors": 0,
+  "resumed": false,
+  "retried_errors": 0,
+  "count": 62,
+  "valid": 62,
+  "summary": {
+    "all": {
+      "count": 62,
+      "valid": 62,
+      "correct": 53,
+      "accuracy": 0.8548387096774194,
+      "mean_negative_log_likelihood": 0.42805758687187506,
+      "mean_multiclass_brier": 0.22663548387096774
+    },
+    "choice": {
+      "count": 62,
+      "valid": 62,
+      "correct": 53,
+      "accuracy": 0.8548387096774194,
+      "mean_negative_log_likelihood": 0.42805758687187506,
+      "mean_multiclass_brier": 0.22663548387096774
+    }
+  },
+  "calibration": {
+    "ece10": 0.038870967741935485,
+    "bins": 10,
+    "calibration_n": 62,
+    "confidence": "top API probability after renormalization; invalid responses excluded"
+  },
+  "by_domain": {
+    "sat.reading-writing.module-1": {
+      "all": {
+        "count": 32,
+        "valid": 32,
+        "correct": 28,
+        "accuracy": 0.875,
+        "mean_negative_log_likelihood": 0.346593592411282,
+        "mean_multiclass_brier": 0.178725
+      },
+      "choice": {
+        "count": 32,
+        "valid": 32,
+        "correct": 28,
+        "accuracy": 0.875,
+        "mean_negative_log_likelihood": 0.346593592411282,
+        "mean_multiclass_brier": 0.178725
+      }
+    },
+    "sat.reading-writing.module-2": {
+      "all": {
+        "count": 30,
+        "valid": 30,
+        "correct": 25,
+        "accuracy": 0.8333333333333334,
+        "mean_negative_log_likelihood": 0.5149525142965077,
+        "mean_multiclass_brier": 0.27774
+      },
+      "choice": {
+        "count": 30,
+        "valid": 30,
+        "correct": 25,
+        "accuracy": 0.8333333333333334,
+        "mean_negative_log_likelihood": 0.5149525142965077,
+        "mean_multiclass_brier": 0.27774
+      }
+    }
+  },
+  "timing": {
+    "total_request_seconds": 40.64181916398229,
+    "median_seconds": 0.648767292033881,
+    "p95_seconds": 0.7382404999807477,
+    "boundary": "client wall time per request including retries and HTTPS transport"
+  },
+  "usage": {
+    "input_tokens": 39871,
+    "output_tokens": 2790
+  }
+}

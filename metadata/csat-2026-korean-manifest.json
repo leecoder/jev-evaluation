@@ -1,0 +1,90 @@
+{
+  "dataset": "local-only: csat-2026-korean-odd-text.jsonl (not published)",
+  "coverage_status": "text_complete_reviewed_subset",
+  "subject": "국어",
+  "form": "odd",
+  "records": 48,
+  "source_question_pdf": "https://wdown.ebsi.co.kr/W61001/01exam/20251113/go3/live_main_paper_1_kor_352K8BKR.pdf",
+  "source_answer_pdf": "https://wdown.ebsi.co.kr/W61001/01exam/20251113/go3/live_main_answer_1_kor_8ZE3E1XR.pdf",
+  "question_pdf_sha256": "d92acc5da6806a3c1fe4adc84c4acbf7fa90e75ec6112a78d18adedca17e3d3d",
+  "answer_pdf_sha256": "2c3e35bd046370beca26788353cca9da0ed3902eb48d373fdca23664dee13ffc",
+  "extracted_text_sha256": "44da7943c147b91ac495e762c20117c7298035fbce2296d2681bdb17d7ac0dd3",
+  "dataset_sha256": "5c49534b4e51ea047f871064926716446a9ab4bb07c60b943126428c62bb9874",
+  "included_tracks": {
+    "common": 33,
+    "hwajak": 10,
+    "eonma": 5
+  },
+  "evaluation": {
+    "runner": "eval",
+    "model": "jev-1.13.0",
+    "output_dir": "results/csat-2026-korean-odd",
+    "records": 48,
+    "valid": 48,
+    "errors": 0,
+    "correct": 25,
+    "accuracy": 0.5208333333333334,
+    "mean_negative_log_likelihood": 1.1409741047826871,
+    "mean_multiclass_brier": 0.5721416666666667,
+    "ece10": 0.14875,
+    "median_request_seconds": 0.743043,
+    "p95_request_seconds": 0.915302,
+    "by_domain": {
+      "csat.korean.common": {"correct": 19, "count": 33, "accuracy": 0.5757575757575758},
+      "csat.korean.hwajak": {"correct": 6, "count": 10, "accuracy": 0.6},
+      "csat.korean.eonma": {"correct": 0, "count": 5, "accuracy": 0.0}
+    }
+  },
+  "excluded": [
+    {
+      "track": "common",
+      "question_number": 12,
+      "reason": "right-hand figure is absent from text extraction",
+      "group": "10-13"
+    },
+    {
+      "track": "hwajak",
+      "question_number": 36,
+      "reason": "자료 이미지가 텍스트 추출물에 없어 자료 의존성을 검증할 수 없음",
+      "group": "35-37"
+    },
+    {
+      "track": "eonma",
+      "question_number": 40,
+      "reason": "온라인 화면 이미지가 텍스트 추출물에 없어 시각 자료 의존성을 검증할 수 없음",
+      "group": "40-43"
+    },
+    {
+      "track": "eonma",
+      "question_number": 41,
+      "reason": "온라인 화면 이미지가 텍스트 추출물에 없어 시각 자료 의존성을 검증할 수 없음",
+      "group": "40-43"
+    },
+    {
+      "track": "eonma",
+      "question_number": 42,
+      "reason": "온라인 화면 이미지가 텍스트 추출물에 없어 시각 자료 의존성을 검증할 수 없음",
+      "group": "40-43"
+    },
+    {
+      "track": "eonma",
+      "question_number": 43,
+      "reason": "온라인 화면 이미지가 텍스트 추출물에 없어 시각 자료 의존성을 검증할 수 없음",
+      "group": "40-43"
+    },
+    {
+      "track": "eonma",
+      "question_number": 44,
+      "reason": "온라인 화면 이미지가 텍스트 추출물에 없어 시각 자료 의존성을 검증할 수 없음",
+      "group": "44-45"
+    },
+    {
+      "track": "eonma",
+      "question_number": 45,
+      "reason": "온라인 화면 이미지가 텍스트 추출물에 없어 시각 자료 의존성을 검증할 수 없음",
+      "group": "44-45"
+    }
+  ],
+  "exclusion_policy": "Exclude image/chart/table/screen-dependent items when the required visual content is absent from the extracted text.",
+  "input_contract": "reference.target and answer-key content are never included in input.state or input.questions."
+}
