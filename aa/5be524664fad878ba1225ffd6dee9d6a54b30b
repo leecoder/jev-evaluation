@@ -1,0 +1,19 @@
+nimble/evaluation/evaluate_public_jev.py
+  s_b2a395e2687c6b::t_d8ab4aa9d581fa 1-301
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "aa5be524664fad878ba1225ffd6dee9d6a54b30b",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
