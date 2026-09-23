@@ -1,0 +1,16 @@
+results/csat-2026-korean-odd/manifest.json
+  h_dc03a1b36fc837 1-16
+results/csat-2026-korean-odd/summary.json
+  h_dc03a1b36fc837 1-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "603ba460d8a1cc5487905badf3261210e3119186",
+  "prompts": {},
+  "humans": {
+    "h_dc03a1b36fc837": {
+      "author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
