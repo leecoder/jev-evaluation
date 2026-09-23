@@ -1,0 +1,19 @@
+README.md
+  s_b2a395e2687c6b::t_7fa8495a7dd472 8,12-16,60,64,68,83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3fc670671821243a3ebb9f06293ae38c6be71d7f",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
