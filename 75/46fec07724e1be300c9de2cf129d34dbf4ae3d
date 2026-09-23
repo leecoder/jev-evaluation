@@ -1,0 +1,21 @@
+nimble/evaluation/evaluate_pilot.py
+  s_b2a395e2687c6b::t_9383024b51fd68 1-217
+nimble/evaluation/evaluate_public.py
+  s_b2a395e2687c6b::t_fc792ca4869edb 1-321
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7546fec07724e1be300c9de2cf129d34dbf4ae3d",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
