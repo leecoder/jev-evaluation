@@ -1,0 +1,23 @@
+results/csat-2026-korean-odd/rows.jsonl
+  s_b2a395e2687c6b::t_5e3d259716258d 1-48
+results/sat-practice-11-math/rows.jsonl
+  s_b2a395e2687c6b::t_e6e8dc701126e8 1-28
+results/sat-practice-11-rw/rows.jsonl
+  s_b2a395e2687c6b::t_83a9b3af875bce 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ac79459a0ff686218a81ad3cea548e3b80c6d482",
+  "prompts": {},
+  "sessions": {
+    "s_b2a395e2687c6b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f38ef9e72ffe58GNYVD8xmjsBx",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "leecoder <leecoder@aol.com>"
+    }
+  }
+}
